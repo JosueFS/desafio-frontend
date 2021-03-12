@@ -1,12 +1,17 @@
 import React from 'react';
 
+import GlobalStyle from './styles/global';
+
 import Header from './components/Header';
 
 const App: React.FC = () => {
   return (
-    <Header>
-        Learn Reac
-    </Header>
+    <>
+        <Header>
+            Previsão do Tempo
+        </Header>
+        <GlobalStyle />
+    </>
   );
 }
 

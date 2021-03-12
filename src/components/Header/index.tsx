@@ -1,12 +1,15 @@
 import React from 'react';
 
-import { MainHeader } from './styles';
+import { Title } from './styles';
 
 const Header: React.FC = ({children}) => {
 
 
     return (
-        <MainHeader>{children}</MainHeader>
+        <header>
+            <Title>{children}</Title>
+        </header>
+        
     );
 }
 
